@@ -6,3 +6,4 @@
 - Flow (Static type checker)
 - SCSS
 - HMR (Hot Module Reload)
+- Module paths aliasing
