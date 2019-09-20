@@ -1,0 +1,21 @@
+[ignore]
+suppress_comment = \\(.\\|\n\\)*\\$FlowIgnore
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+module.file_ext=.js
+module.file_ext=.json
+module.file_ext=.jsx
+module.file_ext=.css
+module.file_ext=.scss
+
+# Also update webpack.config.js and jsconfig.json
+module.name_mapper='^Components' -> '<PROJECT_ROOT>/ClientApp/Components' 
+module.name_mapper='^Styles' -> '<PROJECT_ROOT>/ClientApp/Styles' 
+
+[strict]

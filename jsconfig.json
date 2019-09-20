@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "baseUrl": "./",
+        "paths": {
+            // Also update .flowconfig and webpack.config
+            "Components/*": [
+                "ClientApp/Components/*"
+            ],
+            "Styles/*": [
+                "ClientApp/Styles/*"
+            ]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "wwwroot"
+    ]
+}
